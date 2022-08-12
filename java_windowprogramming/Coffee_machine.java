@@ -1,4 +1,4 @@
-package ÀÚ¹ÙXXVII_±×·¡ÇÈ;
+package ìë°”XXVII_ê·¸ë˜í”½;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -61,15 +61,15 @@ public class Coffee_machine extends JFrame implements ActionListener {
 	JRadioButton rdbtneatIn = new JRadioButton("\uBA39\uACE0 \uAC00\uAE30(eat in)");
 	JButton btnBuy = new JButton("\uAD6C\uB9E4\uD558\uAE30");
 	
-	String drinkName = ""; //Ä¿ÇÇ ÀÌ¸§
-	int drinkQuan = 0; //Ä¿ÇÇ ¼ö·®
-	int drinkCost = 0; //Ä¿ÇÇ °¡°İ
+	String drinkName = ""; //ì»¤í”¼ ì´ë¦„
+	int drinkQuan = 0; //ì»¤í”¼ ìˆ˜ëŸ‰
+	int drinkCost = 0; //ì»¤í”¼ ê°€ê²©
 	
-	String cookieName = ""; //°£½Ä ÀÌ¸§
-	int cookieQuan = 0; //°£½Ä ¼ö·®
-	int cookieCost = 0; //°£½Ä °¡°İ
+	String cookieName = ""; //ê°„ì‹ ì´ë¦„
+	int cookieQuan = 0; //ê°„ì‹ ìˆ˜ëŸ‰
+	int cookieCost = 0; //ê°„ì‹ ê°€ê²©
 	
-	String takeOut = ""; //Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ
+	String takeOut = ""; //í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€
 	
 	private JPanel contentPane;
 
@@ -94,7 +94,7 @@ public class Coffee_machine extends JFrame implements ActionListener {
 	 * Create the frame.
 	 */
 	public Coffee_machine() {
-		super("Ä«Æä ¹«ÀÎ ÁÖ¹®±â");
+		super("ì¹´í˜ ë¬´ì¸ ì£¼ë¬¸ê¸°");
 		
 		setFont(new Font("Dialog", Font.PLAIN, 30));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -160,43 +160,43 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		
 		JLabel lblNewLabel = new JLabel("\uBAA8\uCE74 \uCEE4\uD53C");
 		lblNewLabel.setForeground(new Color(139, 69, 19));
-		lblNewLabel.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel.setBounds(46, 219, 100, 30);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblMocha = new JLabel("Mocha coffee");
 		lblMocha.setForeground(new Color(205, 92, 92));
-		lblMocha.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblMocha.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblMocha.setBounds(50, 246, 87, 15);
 		contentPane.add(lblMocha);
 		
 		JLabel label_2 = new JLabel("\uC544\uBA54\uB9AC\uCE74\uB178");
 		label_2.setForeground(new Color(139, 69, 19));
-		label_2.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_2.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_2.setBounds(208, 219, 115, 30);
 		contentPane.add(label_2);
 		
 		JLabel lblAmericano = new JLabel("Americano");
 		lblAmericano.setForeground(new Color(205, 92, 92));
-		lblAmericano.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblAmericano.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblAmericano.setBounds(227, 246, 73, 15);
 		contentPane.add(lblAmericano);
 		
 		JLabel lblNewLabel_1 = new JLabel("\uCE74\uD478\uCE58\uB178");
 		lblNewLabel_1.setForeground(new Color(139, 69, 19));
-		lblNewLabel_1.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel_1.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel_1.setBounds(383, 219, 100, 30);
 		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblCapuchino = new JLabel("capuccino");
 		lblCapuchino.setForeground(new Color(205, 92, 92));
-		lblCapuchino.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblCapuchino.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblCapuchino.setBounds(392, 246, 73, 15);
 		contentPane.add(lblCapuchino);
 		
 		JLabel label_3 = new JLabel("\uC120\uD0DD \uC74C\uB8CC");
 		label_3.setForeground(new Color(178, 34, 34));
-		label_3.setFont(new Font("ÇÔÃÊ·Ò¹ÙÅÁ", Font.BOLD, 23));
+		label_3.setFont(new Font("í•¨ì´ˆë¡¬ë°”íƒ•", Font.BOLD, 23));
 		label_3.setBounds(556, 33, 108, 35);
 		contentPane.add(label_3);
 		
@@ -208,57 +208,57 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		label_drinkName.setForeground(new Color(139, 69, 19));
 		
 		
-		label_drinkName.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		label_drinkName.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		label_drinkName.setBounds(534, 208, 130, 20);
 		contentPane.add(label_drinkName);
 		
 		JLabel label_5 = new JLabel("2500\uC6D0");
 		label_5.setForeground(new Color(255, 127, 80));
-		label_5.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_5.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_5.setBounds(61, 269, 73, 20);
 		contentPane.add(label_5);
 		
 		JLabel lblNewLabel_2 = new JLabel("2000\uC6D0");
 		lblNewLabel_2.setForeground(new Color(255, 127, 80));
-		lblNewLabel_2.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel_2.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel_2.setBounds(229, 271, 65, 18);
 		contentPane.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("4000\uC6D0");
 		lblNewLabel_3.setForeground(new Color(255, 127, 80));
-		lblNewLabel_3.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel_3.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel_3.setBounds(392, 269, 73, 20);
 		contentPane.add(lblNewLabel_3);
 		label_drinkCost.setForeground(new Color(139, 69, 19));
 		
 		
-		label_drinkCost.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		label_drinkCost.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		label_drinkCost.setBounds(535, 242, 130, 20);
 		contentPane.add(label_drinkCost);
 		lblNewLabel_drinkQuan.setForeground(new Color(139, 69, 19));
 		
 		
-		lblNewLabel_drinkQuan.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		lblNewLabel_drinkQuan.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		lblNewLabel_drinkQuan.setBounds(534, 225, 130, 20);
 		contentPane.add(lblNewLabel_drinkQuan);
 		
-		btnDrinkPlus.setFont(new Font("±¼¸²", Font.PLAIN, 12));
+		btnDrinkPlus.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 12));
 		btnDrinkPlus.setBounds(529, 270, 72, 23);
 		contentPane.add(btnDrinkPlus);
 		
-		btnDrinkMinus.setFont(new Font("±¼¸²", Font.PLAIN, 12));
+		btnDrinkMinus.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 12));
 		btnDrinkMinus.setBounds(610, 270, 72, 23);
 		contentPane.add(btnDrinkMinus);
 		
 
-		btnBuy.setFont(new Font("±¼¸²", Font.BOLD, 19));
+		btnBuy.setFont(new Font("êµ´ë¦¼", Font.BOLD, 19));
 		btnBuy.setBackground(new Color(152, 251, 152));
 		btnBuy.setBounds(715, 390, 164, 258);
 		contentPane.add(btnBuy);
 		
 		
 		btnDrinkCancel.setBackground(new Color(250, 128, 114));
-		btnDrinkCancel.setFont(new Font("±¼¸²", Font.BOLD, 14));
+		btnDrinkCancel.setFont(new Font("êµ´ë¦¼", Font.BOLD, 14));
 		btnDrinkCancel.setBounds(529, 303, 153, 30);
 		contentPane.add(btnDrinkCancel);
 
@@ -277,7 +277,7 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		
 		JLabel label_4 = new JLabel("\uC120\uD0DD \uAC04\uC2DD");
 		label_4.setForeground(new Color(178, 34, 34));
-		label_4.setFont(new Font("ÇÔÃÊ·Ò¹ÙÅÁ", Font.BOLD, 23));
+		label_4.setFont(new Font("í•¨ì´ˆë¡¬ë°”íƒ•", Font.BOLD, 23));
 		label_4.setBounds(556, 350, 108, 30);
 		contentPane.add(label_4);
 		
@@ -289,104 +289,104 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		
 		JLabel lblNewLabel_4 = new JLabel("\uC218\uC81C \uCFE0\uD0A4");
 		lblNewLabel_4.setForeground(new Color(139, 69, 19));
-		lblNewLabel_4.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel_4.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel_4.setBounds(46, 540, 100, 20);
 		contentPane.add(lblNewLabel_4);
 		
 		JLabel lblNewLabel_5 = new JLabel("Handmade cookie");
 		lblNewLabel_5.setForeground(new Color(205, 92, 92));
-		lblNewLabel_5.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblNewLabel_5.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblNewLabel_5.setBounds(38, 561, 131, 15);
 		contentPane.add(lblNewLabel_5);
 		
 		JLabel label_7 = new JLabel("3000\uC6D0");
 		label_7.setForeground(new Color(255, 127, 80));
-		label_7.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_7.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_7.setBounds(61, 586, 73, 20);
 		contentPane.add(label_7);
 		
 		JLabel label_8 = new JLabel("\uC870\uAC01 \uCF00\uC774\uD06C");
 		label_8.setForeground(new Color(139, 69, 19));
-		label_8.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_8.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_8.setBounds(203, 537, 115, 26);
 		contentPane.add(label_8);
 		
 		JLabel lblNewLabel_6 = new JLabel("\uB9C8\uCE74\uB871");
 		lblNewLabel_6.setForeground(new Color(139, 69, 19));
-		lblNewLabel_6.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		lblNewLabel_6.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		lblNewLabel_6.setBounds(391, 540, 79, 20);
 		contentPane.add(lblNewLabel_6);
 		
 		JLabel lblNewLabel_7 = new JLabel("a Piece of cake");
 		lblNewLabel_7.setForeground(new Color(205, 92, 92));
-		lblNewLabel_7.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblNewLabel_7.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblNewLabel_7.setBounds(211, 561, 108, 15);
 		contentPane.add(lblNewLabel_7);
 		
 		JLabel lblNewLabel_8 = new JLabel("Macaron");
 		lblNewLabel_8.setForeground(new Color(205, 92, 92));
-		lblNewLabel_8.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 13));
+		lblNewLabel_8.setFont(new Font("ë°”íƒ•", Font.PLAIN, 13));
 		lblNewLabel_8.setBounds(396, 561, 57, 15);
 		contentPane.add(lblNewLabel_8);
 		
 		JLabel label_9 = new JLabel("8000\uC6D0");
 		label_9.setForeground(new Color(255, 127, 80));
-		label_9.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_9.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_9.setBounds(227, 586, 73, 20);
 		contentPane.add(label_9);
 		
 		JLabel label_10 = new JLabel("5000\uC6D0");
 		label_10.setForeground(new Color(255, 127, 80));
-		label_10.setFont(new Font("¹ÙÅÁ", Font.BOLD, 20));
+		label_10.setFont(new Font("ë°”íƒ•", Font.BOLD, 20));
 		label_10.setBounds(392, 586, 73, 20);
 		contentPane.add(label_10);
 		Label_cookieName.setForeground(new Color(139, 69, 19));
 		
 		
-		Label_cookieName.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		Label_cookieName.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		Label_cookieName.setBounds(534, 522, 130, 20);
 		contentPane.add(Label_cookieName);
 		label_cookieQuan.setForeground(new Color(139, 69, 19));
 		
 		
-		label_cookieQuan.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		label_cookieQuan.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		label_cookieQuan.setBounds(534, 540, 130, 18);
 		contentPane.add(label_cookieQuan);
 		Label_cookieCost.setForeground(new Color(139, 69, 19));
 		
 		
-		Label_cookieCost.setFont(new Font("¹ÙÅÁ", Font.PLAIN, 17));
+		Label_cookieCost.setFont(new Font("ë°”íƒ•", Font.PLAIN, 17));
 		Label_cookieCost.setBounds(534, 556, 130, 20);
 		contentPane.add(Label_cookieCost);
 		
 		
-		btnCookiePlus.setFont(new Font("±¼¸²", Font.PLAIN, 12));
+		btnCookiePlus.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 12));
 		btnCookiePlus.setBounds(529, 585, 72, 23);
 		contentPane.add(btnCookiePlus);
 		
 		
-		btnCookieMinus.setFont(new Font("±¼¸²", Font.PLAIN, 12));
+		btnCookieMinus.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 12));
 		btnCookieMinus.setBounds(610, 585, 72, 23);
 		contentPane.add(btnCookieMinus);
 		
 		
-		btnCookieCancel.setFont(new Font("±¼¸²", Font.BOLD, 14));
+		btnCookieCancel.setFont(new Font("êµ´ë¦¼", Font.BOLD, 14));
 		btnCookieCancel.setBackground(new Color(250, 128, 114));
 		btnCookieCancel.setBounds(529, 618, 153, 30);
 		contentPane.add(btnCookieCancel);
 		
 		
-		rdbtntakeOut.setFont(new Font("±¼¸²", Font.PLAIN, 15));
+		rdbtntakeOut.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 15));
 		rdbtntakeOut.setBounds(713, 338, 164, 20);
 		contentPane.add(rdbtntakeOut);
 		
 		
-		rdbtneatIn.setFont(new Font("±¼¸²", Font.PLAIN, 15));
+		rdbtneatIn.setFont(new Font("êµ´ë¦¼", Font.PLAIN, 15));
 		rdbtneatIn.setBounds(713, 360, 153, 20);
 		contentPane.add(rdbtneatIn);
 		
 		JTextArea textArea = new JTextArea();
-		textArea.setFont(new Font("ÇÔÃÊ·Òµ¸¿ò", Font.PLAIN, 13));
+		textArea.setFont(new Font("í•¨ì´ˆë¡¬ë‹ì›€", Font.PLAIN, 13));
 		textArea.setBackground(new Color(255, 250, 205));
 		textArea.setEditable(false);
 		textArea.setText(".-------\uC8FC\uBB38\uD558\uC2DC\uB294 \uBC29\uBC95-------.\r\n\r\n1. \uB4DC\uC2DC\uACE0 \uC2F6\uC740\r\n    \uC74C\uB8CC \uD639\uC740 \uAC04\uC2DD\uC744 \uC120\uD0DD\r\n\r\n2. \uD544\uC694\uD55C \uB9CC\uD07C \uC218\uB7C9\uC744 \uC870\uC808\r\n    (\uCD5C\uB300 10\uAC1C)\r\n\r\n3. \uD14C\uC774\uD06C\uC544\uC6C3 \uC5EC\uBD80 \uD655\uC778\r\n\r\n4. \uAD6C\uB9E4\uD558\uAE30 \uBC84\uD2BC \uD074\uB9AD\r\n\r\n5. \uC8FC\uBB38\uC774 \uC644\uC131\uB418\uBA74 \uB370\uC2A4\uD06C\uB85C");
@@ -395,7 +395,7 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		
 		JLabel label_1 = new JLabel("\uCE74\uD398 \uBB34\uC778 \uC8FC\uBB38\uAE30");
 		label_1.setForeground(new Color(128, 0, 0));
-		label_1.setFont(new Font("ÇÔÃÊ·Ò¹ÙÅÁ", Font.BOLD, 34));
+		label_1.setFont(new Font("í•¨ì´ˆë¡¬ë°”íƒ•", Font.BOLD, 34));
 		label_1.setBounds(131, 10, 257, 40);
 		contentPane.add(label_1);
 		
@@ -403,7 +403,7 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		
 		
 	}
-	void center() { //Ã¢À» °¡¿îµ¥¿¡ ¶ç¿öÁÖ´Â ¿ëµµ
+	void center() { //ì°½ì„ ê°€ìš´ë°ì— ë„ì›Œì£¼ëŠ” ìš©ë„
 		dimen = Toolkit.getDefaultToolkit().getScreenSize();
 		dimen1 = this.getSize();
 		xpos = (int) (dimen.getWidth() / 2 - dimen1.getWidth() / 2);
@@ -412,139 +412,139 @@ public class Coffee_machine extends JFrame implements ActionListener {
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if(e.getSource()==button_mocha) { //¸ğÄ« Ä¿ÇÇ¸¦ ´­·¶À» ¶§
-			drinkName = "¸ğÄ« Ä¿ÇÇ";
+		if(e.getSource()==button_mocha) { //ëª¨ì¹´ ì»¤í”¼ë¥¼ ëˆŒë €ì„ ë•Œ
+			drinkName = "ëª¨ì¹´ ì»¤í”¼";
 			drinkCost = 2500;
 			drinkQuan = 1;
 			label_selDrink.setIcon(new ImageIcon("C:\\ksj\\work\\images\\mocha.jpg"));
 			label_drinkName.setText(drinkName);
-			lblNewLabel_drinkQuan.setText("¼ö·®: "+drinkQuan+"°³");
-			label_drinkCost.setText(drinkCost+"¿ø");
-		}else if(e.getSource()==button_americano) { //¾Æ¸Ş¸®Ä«³ë¸¦ ´­·¶À» ¶§
-			drinkName = "¾Æ¸Ş¸®Ä«³ë";
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰: "+drinkQuan+"ê°œ");
+			label_drinkCost.setText(drinkCost+"ì›");
+		}else if(e.getSource()==button_americano) { //ì•„ë©”ë¦¬ì¹´ë…¸ë¥¼ ëˆŒë €ì„ ë•Œ
+			drinkName = "ì•„ë©”ë¦¬ì¹´ë…¸";
 			drinkCost = 2000;
 			drinkQuan = 1;
 			label_selDrink.setIcon(new ImageIcon("C:\\ksj\\work\\images\\americano.jpg"));
 			label_drinkName.setText(drinkName);
-			lblNewLabel_drinkQuan.setText("¼ö·®: "+drinkQuan+"°³");
-			label_drinkCost.setText(drinkCost+"¿ø");
-		}else if(e.getSource()==button_capuccino) { //Ä«ÇªÄ¡³ë¸¦ ´­·¶À» ¶§
-			drinkName = "Ä«ÇªÄ¡³ë";
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰: "+drinkQuan+"ê°œ");
+			label_drinkCost.setText(drinkCost+"ì›");
+		}else if(e.getSource()==button_capuccino) { //ì¹´í‘¸ì¹˜ë…¸ë¥¼ ëˆŒë €ì„ ë•Œ
+			drinkName = "ì¹´í‘¸ì¹˜ë…¸";
 			drinkCost = 4000;
 			drinkQuan = 1;
 			label_selDrink.setIcon(new ImageIcon("C:\\ksj\\work\\images\\capuchino.jpg"));
 			label_drinkName.setText(drinkName);
-			lblNewLabel_drinkQuan.setText("¼ö·®: "+drinkQuan+"°³");
-			label_drinkCost.setText(drinkCost+"¿ø");
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰: "+drinkQuan+"ê°œ");
+			label_drinkCost.setText(drinkCost+"ì›");
 		}
-		if(e.getSource()==btnDrinkPlus) { //(Ä¿ÇÇ)+1À» ´­·¶À» ¶§
+		if(e.getSource()==btnDrinkPlus) { //(ì»¤í”¼)+1ì„ ëˆŒë €ì„ ë•Œ
 			drinkQuan++;
-			lblNewLabel_drinkQuan.setText("¼ö·®: "+drinkQuan+"°³");
-			label_drinkCost.setText(drinkCost*drinkQuan+"¿ø");
-		}else if(e.getSource()==btnDrinkMinus) { //(Ä¿ÇÇ)-1À» ´­·¶À» ¶§
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰: "+drinkQuan+"ê°œ");
+			label_drinkCost.setText(drinkCost*drinkQuan+"ì›");
+		}else if(e.getSource()==btnDrinkMinus) { //(ì»¤í”¼)-1ì„ ëˆŒë €ì„ ë•Œ
 			drinkQuan--;
-			lblNewLabel_drinkQuan.setText("¼ö·®: "+drinkQuan+"°³");
-			label_drinkCost.setText(drinkCost*drinkQuan+"¿ø");
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰: "+drinkQuan+"ê°œ");
+			label_drinkCost.setText(drinkCost*drinkQuan+"ì›");
 		}
 		
-		if(e.getSource()==btnDrinkCancel) { //(Ä¿ÇÇ)Ãë¼ÒÇÏ±â¸¦ ´­·¶À» ¶§
+		if(e.getSource()==btnDrinkCancel) { //(ì»¤í”¼)ì·¨ì†Œí•˜ê¸°ë¥¼ ëˆŒë €ì„ ë•Œ
 			drinkName = "";
 			drinkCost = 0;
 			drinkQuan = 0;
 			label_selDrink.setIcon(new ImageIcon("C:\\ksj\\work\\images\\coffee_icon.jpg"));
-			label_drinkName.setText("À½·á¸í");
-			lblNewLabel_drinkQuan.setText("¼ö·®");
-			label_drinkCost.setText("-¿ø");
+			label_drinkName.setText("ìŒë£Œëª…");
+			lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰");
+			label_drinkCost.setText("-ì›");
 		}
-		if(drinkQuan >= 1) { //Ä¿ÇÇ ¼ö·®ÀÌ 1ÀÌ»óÀÌ¾î¾ß Ãë¼ÒÇÏ±â ¹öÆ°ÀÌ È°¼ºÈ­
+		if(drinkQuan >= 1) { //ì»¤í”¼ ìˆ˜ëŸ‰ì´ 1ì´ìƒì´ì–´ì•¼ ì·¨ì†Œí•˜ê¸° ë²„íŠ¼ì´ í™œì„±í™”
 			btnDrinkCancel.setEnabled(true);
 		}else {
 			btnDrinkCancel.setEnabled(false);
 		}
 		
-		if(drinkQuan > 1) { //Ä¿ÇÇ ¼ö·®ÀÌ 2°³ÀÏ ¶§ºÎÅÍ -1¹öÆ°ÀÌ È°¼ºÈ­
+		if(drinkQuan > 1) { //ì»¤í”¼ ìˆ˜ëŸ‰ì´ 2ê°œì¼ ë•Œë¶€í„° -1ë²„íŠ¼ì´ í™œì„±í™”
 			btnDrinkMinus.setEnabled(true);
 		}else {
 			btnDrinkMinus.setEnabled(false);
 		}
-		if(drinkQuan == 0) { //Ä¿ÇÇ ¼ö·®ÀÌ 0°³ÀÌ¸é ¼ö·®Áõ°¨ ¹öÆ°ÀÌ ºñÈ°¼ºÈ­
+		if(drinkQuan == 0) { //ì»¤í”¼ ìˆ˜ëŸ‰ì´ 0ê°œì´ë©´ ìˆ˜ëŸ‰ì¦ê° ë²„íŠ¼ì´ ë¹„í™œì„±í™”
 			btnDrinkPlus.setEnabled(false);
 		}else {
-			if(drinkQuan == 10) { //Ä¿ÇÇ ¼ö·®ÀÌ 10°³ÀÌ¸é +1¹öÆ°ÀÌ ºñÈ°¼ºÈ­
+			if(drinkQuan == 10) { //ì»¤í”¼ ìˆ˜ëŸ‰ì´ 10ê°œì´ë©´ +1ë²„íŠ¼ì´ ë¹„í™œì„±í™”
 				btnDrinkPlus.setEnabled(false);
 			}else {
 				btnDrinkPlus.setEnabled(true);
 			}
 		}
 		
-		if(e.getSource()==btnCookie) { //¼öÁ¦ ÄíÅ°¸¦ ´­·¶À» ¶§
-			cookieName = "¼öÁ¦ ÄíÅ°";
+		if(e.getSource()==btnCookie) { //ìˆ˜ì œ ì¿ í‚¤ë¥¼ ëˆŒë €ì„ ë•Œ
+			cookieName = "ìˆ˜ì œ ì¿ í‚¤";
 			cookieCost = 3000;
 			cookieQuan = 1;
 			label_cookieIcon.setIcon(new ImageIcon("C:\\ksj\\work\\images\\cookie.jpg"));
 			Label_cookieName.setText(cookieName);
-			label_cookieQuan.setText("¼ö·®: "+cookieQuan+"°³");
-			Label_cookieCost.setText(cookieCost+"¿ø");
-		}else if(e.getSource()==btnCake) { //Á¶°¢ ÄÉÀÌÅ©¸¦ ´­·¶À» ¶§
-			cookieName = "Á¶°¢ ÄÉÀÌÅ©";
+			label_cookieQuan.setText("ìˆ˜ëŸ‰: "+cookieQuan+"ê°œ");
+			Label_cookieCost.setText(cookieCost+"ì›");
+		}else if(e.getSource()==btnCake) { //ì¡°ê° ì¼€ì´í¬ë¥¼ ëˆŒë €ì„ ë•Œ
+			cookieName = "ì¡°ê° ì¼€ì´í¬";
 			cookieCost = 8000;
 			cookieQuan = 1;
 			label_cookieIcon.setIcon(new ImageIcon("C:\\ksj\\work\\images\\cake.jpg"));
 			Label_cookieName.setText(cookieName);
-			label_cookieQuan.setText("¼ö·®: "+cookieQuan+"°³");
-			Label_cookieCost.setText(cookieCost+"¿ø");
-		}else if(e.getSource()==btnMacaron) { //¸¶Ä«·ÕÀ» ´­·¶À» ¶§
-			cookieName = "¸¶Ä«·Õ";
+			label_cookieQuan.setText("ìˆ˜ëŸ‰: "+cookieQuan+"ê°œ");
+			Label_cookieCost.setText(cookieCost+"ì›");
+		}else if(e.getSource()==btnMacaron) { //ë§ˆì¹´ë¡±ì„ ëˆŒë €ì„ ë•Œ
+			cookieName = "ë§ˆì¹´ë¡±";
 			cookieCost = 5000;
 			cookieQuan = 1;
 			label_cookieIcon.setIcon(new ImageIcon("C:\\ksj\\work\\images\\macaron.jpg"));
 			Label_cookieName.setText(cookieName);
-			label_cookieQuan.setText("¼ö·®: "+cookieQuan+"°³");
-			Label_cookieCost.setText(cookieCost+"¿ø");
+			label_cookieQuan.setText("ìˆ˜ëŸ‰: "+cookieQuan+"ê°œ");
+			Label_cookieCost.setText(cookieCost+"ì›");
 		}
-		if(e.getSource()==btnCookiePlus) { //(°£½Ä)+1À» ´­·¶À» ¶§
+		if(e.getSource()==btnCookiePlus) { //(ê°„ì‹)+1ì„ ëˆŒë €ì„ ë•Œ
 			cookieQuan++;
-			label_cookieQuan.setText("¼ö·®: "+cookieQuan+"°³");
-			Label_cookieCost.setText(cookieCost*cookieQuan+"¿ø");
-		}else if(e.getSource()==btnCookieMinus) { //(°£½Ä)-1À» ´­·¶À» ¶§
+			label_cookieQuan.setText("ìˆ˜ëŸ‰: "+cookieQuan+"ê°œ");
+			Label_cookieCost.setText(cookieCost*cookieQuan+"ì›");
+		}else if(e.getSource()==btnCookieMinus) { //(ê°„ì‹)-1ì„ ëˆŒë €ì„ ë•Œ
 			cookieQuan--;
-			label_cookieQuan.setText("¼ö·®: "+cookieQuan+"°³");
-			Label_cookieCost.setText(cookieCost*cookieQuan+"¿ø");
+			label_cookieQuan.setText("ìˆ˜ëŸ‰: "+cookieQuan+"ê°œ");
+			Label_cookieCost.setText(cookieCost*cookieQuan+"ì›");
 		}
-		if(e.getSource()==btnCookieCancel) { //(°£½Ä)Ãë¼ÒÇÏ±â¸¦ ´­·¶À» ¶§
+		if(e.getSource()==btnCookieCancel) { //(ê°„ì‹)ì·¨ì†Œí•˜ê¸°ë¥¼ ëˆŒë €ì„ ë•Œ
 			cookieName = "";
 			cookieCost = 0;
 			cookieQuan = 0;
 			label_cookieIcon.setIcon(new ImageIcon("C:\\ksj\\work\\images\\cookie_icon.png"));
-			Label_cookieName.setText("°£½Ä¸í");
-			label_cookieQuan.setText("¼ö·®");
-			Label_cookieCost.setText("-¿ø");
+			Label_cookieName.setText("ê°„ì‹ëª…");
+			label_cookieQuan.setText("ìˆ˜ëŸ‰");
+			Label_cookieCost.setText("-ì›");
 		}
-		if(cookieQuan >= 1) { //°£½Ä ¼ö·®ÀÌ 1ÀÌ»óÀÌ¾î¾ß Ãë¼ÒÇÏ±â ¹öÆ°ÀÌ È°¼ºÈ­
+		if(cookieQuan >= 1) { //ê°„ì‹ ìˆ˜ëŸ‰ì´ 1ì´ìƒì´ì–´ì•¼ ì·¨ì†Œí•˜ê¸° ë²„íŠ¼ì´ í™œì„±í™”
 			btnCookieCancel.setEnabled(true);
 		}else {
 			btnCookieCancel.setEnabled(false);
 		}
 		
-		if(cookieQuan > 1) { //°£½Ä ¼ö·®ÀÌ 2°³ÀÏ ¶§ºÎÅÍ -1¹öÆ°ÀÌ È°¼ºÈ­
+		if(cookieQuan > 1) { //ê°„ì‹ ìˆ˜ëŸ‰ì´ 2ê°œì¼ ë•Œë¶€í„° -1ë²„íŠ¼ì´ í™œì„±í™”
 			btnCookieMinus.setEnabled(true);
 		}else {
 			btnCookieMinus.setEnabled(false);
 		}
-		if(cookieQuan == 0) { //°£½Ä ¼ö·®ÀÌ 0°³ÀÌ¸é ¼ö·®Áõ°¨ ¹öÆ°ÀÌ ºñÈ°¼ºÈ­
+		if(cookieQuan == 0) { //ê°„ì‹ ìˆ˜ëŸ‰ì´ 0ê°œì´ë©´ ìˆ˜ëŸ‰ì¦ê° ë²„íŠ¼ì´ ë¹„í™œì„±í™”
 			btnCookiePlus.setEnabled(false);
 		}else {
-			if(cookieQuan == 10) { //°£½Ä ¼ö·®ÀÌ 10°³ÀÌ¸é +1¹öÆ°ÀÌ ºñÈ°¼ºÈ­
+			if(cookieQuan == 10) { //ê°„ì‹ ìˆ˜ëŸ‰ì´ 10ê°œì´ë©´ +1ë²„íŠ¼ì´ ë¹„í™œì„±í™”
 				btnCookiePlus.setEnabled(false);
 			}else {
 				btnCookiePlus.setEnabled(true);
 			}
 		}
 		
-		if(drinkQuan >= 1 || cookieQuan >= 1) { //Ä¿ÇÇ³ª °£½ÄÀ» °ñ¶ú´Ù¸é Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ È®ÀÎÀÌ È°¼ºÈ­
+		if(drinkQuan >= 1 || cookieQuan >= 1) { //ì»¤í”¼ë‚˜ ê°„ì‹ì„ ê³¨ëë‹¤ë©´ í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€ í™•ì¸ì´ í™œì„±í™”
 			rdbtntakeOut.setEnabled(true);
 			rdbtneatIn.setEnabled(true);
-		}else { //¾Æ¹«°Íµµ °í¸£Áö ¾Ê¾Ò´Ù¸é Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ, ±¸¸ÅÇÏ±â ¹öÆ°ÀÌ ºñÈ°¼ºÈ­
+		}else { //ì•„ë¬´ê²ƒë„ ê³ ë¥´ì§€ ì•Šì•˜ë‹¤ë©´ í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€, êµ¬ë§¤í•˜ê¸° ë²„íŠ¼ì´ ë¹„í™œì„±í™”
 			rdbtntakeOut.setEnabled(false);
 			rdbtneatIn.setEnabled(false);
 			rdbtntakeOut.setSelected(false);
@@ -552,42 +552,42 @@ public class Coffee_machine extends JFrame implements ActionListener {
 			btnBuy.setEnabled(false);
 		}
 		
-		if(e.getSource()==rdbtntakeOut) { //Å×ÀÌÅ©¾Æ¿ôÀ» °ñ¶ú´Ù¸é
+		if(e.getSource()==rdbtntakeOut) { //í…Œì´í¬ì•„ì›ƒì„ ê³¨ëë‹¤ë©´
 			takeOut = "O";
 			rdbtneatIn.setSelected(false);
 			btnBuy.setEnabled(true);
-		}else if(e.getSource()==rdbtneatIn) { //¸Ô°í °¡±â¸¦ ´­·¶´Ù¸é
+		}else if(e.getSource()==rdbtneatIn) { //ë¨¹ê³  ê°€ê¸°ë¥¼ ëˆŒë €ë‹¤ë©´
 			takeOut = "X";
 			rdbtntakeOut.setSelected(false);
 			btnBuy.setEnabled(true);
 		}
 		
 		if(e.getSource()==btnBuy) {
-			if(drinkQuan >= 1 && cookieQuan >= 1) { //Ä¿ÇÇ¿Í °£½ÄÀ» °í¸£°í ±¸¸ÅÇÏ±â¸¦ ´­·¶À» ¶§
-				msg("'"+drinkName+"' " + drinkQuan + " °³, '"+cookieName+"' " + cookieQuan + " °³¸¦ ±¸¸ÅÇÏ½Ã°Ú½À´Ï±î?"
-						+ "\n °¡°İ: " + (drinkCost*drinkQuan + cookieCost*cookieQuan) + "¿ø"
-						+ "\n" + "Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ: " + takeOut);
-			}else if(drinkQuan >= 1) { //Ä¿ÇÇ¸¸ °í¸£°í ±¸¸ÅÇÏ±â¸¦ ´­·¶À» ¶§
-				msg("'"+drinkName+"' " + drinkQuan + " °³¸¦ ±¸¸ÅÇÏ½Ã°Ú½À´Ï±î?"
-						+ "\n °¡°İ: " + (drinkCost*drinkQuan) + "¿ø"
-						+ "\n" + "Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ: " + takeOut);
-			}else if(cookieQuan >= 1) { //°£½Ä¸¸ °í¸£°í ±¸¸ÅÇÏ±â¸¦ ´­·¶À» ¶§
-				msg("'"+cookieName+"' " + cookieQuan + " °³¸¦ ±¸¸ÅÇÏ½Ã°Ú½À´Ï±î?"
-						+ "\n °¡°İ: " + (cookieCost*cookieQuan) + "¿ø"
-						+ "\n" + "Å×ÀÌÅ©¾Æ¿ô ¿©ºÎ: " + takeOut);
+			if(drinkQuan >= 1 && cookieQuan >= 1) { //ì»¤í”¼ì™€ ê°„ì‹ì„ ê³ ë¥´ê³  êµ¬ë§¤í•˜ê¸°ë¥¼ ëˆŒë €ì„ ë•Œ
+				msg("'"+drinkName+"' " + drinkQuan + " ê°œ, '"+cookieName+"' " + cookieQuan + " ê°œë¥¼ êµ¬ë§¤í•˜ì‹œê² ìŠµë‹ˆê¹Œ?"
+						+ "\n ê°€ê²©: " + (drinkCost*drinkQuan + cookieCost*cookieQuan) + "ì›"
+						+ "\n" + "í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€: " + takeOut);
+			}else if(drinkQuan >= 1) { //ì»¤í”¼ë§Œ ê³ ë¥´ê³  êµ¬ë§¤í•˜ê¸°ë¥¼ ëˆŒë €ì„ ë•Œ
+				msg("'"+drinkName+"' " + drinkQuan + " ê°œë¥¼ êµ¬ë§¤í•˜ì‹œê² ìŠµë‹ˆê¹Œ?"
+						+ "\n ê°€ê²©: " + (drinkCost*drinkQuan) + "ì›"
+						+ "\n" + "í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€: " + takeOut);
+			}else if(cookieQuan >= 1) { //ê°„ì‹ë§Œ ê³ ë¥´ê³  êµ¬ë§¤í•˜ê¸°ë¥¼ ëˆŒë €ì„ ë•Œ
+				msg("'"+cookieName+"' " + cookieQuan + " ê°œë¥¼ êµ¬ë§¤í•˜ì‹œê² ìŠµë‹ˆê¹Œ?"
+						+ "\n ê°€ê²©: " + (cookieCost*cookieQuan) + "ì›"
+						+ "\n" + "í…Œì´í¬ì•„ì›ƒ ì—¬ë¶€: " + takeOut);
 			}
 		}
 	}
 	void msg(String msg)
 	{
-		final Dialog dlg = new Dialog(this, "°áÁ¦ ¸Ş½ÃÁö", true);
+		final Dialog dlg = new Dialog(this, "ê²°ì œ ë©”ì‹œì§€", true);
 		dlg.setLayout(null);
 		JTextArea taMsg = new JTextArea(msg);
 		taMsg.setEditable(false);
-		JButton btnBuy = new JButton("±¸¸ÅÇÏ±â");
-		JButton btnCancel = new JButton("Ãë¼Ò");
-		JButton btnPurchase = new JButton("°áÀç");
-		JButton btnOk = new JButton("È®ÀÎ");
+		JButton btnBuy = new JButton("êµ¬ë§¤í•˜ê¸°");
+		JButton btnCancel = new JButton("ì·¨ì†Œ");
+		JButton btnPurchase = new JButton("ê²°ì¬");
+		JButton btnOk = new JButton("í™•ì¸");
 		btnPurchase.setVisible(false);
 		btnOk.setVisible(false);
 		
@@ -612,47 +612,47 @@ public class Coffee_machine extends JFrame implements ActionListener {
 				dlg.setVisible(false);
 			}
 		});
-		btnBuy.addActionListener(new ActionListener() { //±¸¸ÅÇÏ±â ¹öÆ°À» ´­·¶À» ¶§
+		btnBuy.addActionListener(new ActionListener() { //êµ¬ë§¤í•˜ê¸° ë²„íŠ¼ì„ ëˆŒë €ì„ ë•Œ
 			public void actionPerformed(ActionEvent e) {
-				taMsg.setText("Ä«µå¸¦ ´Ü¸»±â¿¡ ²ÈÀ¸½Ã°í °áÀç¹öÆ°À» ´­·¯ÁÖ¼¼¿ä.");
+				taMsg.setText("ì¹´ë“œë¥¼ ë‹¨ë§ê¸°ì— ê½‚ìœ¼ì‹œê³  ê²°ì¬ë²„íŠ¼ì„ ëˆŒëŸ¬ì£¼ì„¸ìš”.");
 				btnBuy.setVisible(false);
 				btnPurchase.setVisible(true);
 			}
 		});
-		btnPurchase.addActionListener(new ActionListener() { //°áÀç ¹öÆ°À» ´­·¶À» ¶§
+		btnPurchase.addActionListener(new ActionListener() { //ê²°ì¬ ë²„íŠ¼ì„ ëˆŒë €ì„ ë•Œ
 			public void actionPerformed(ActionEvent e) {
 				try { Thread.sleep(500);
-					taMsg.setText("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À.");
-					System.out.println("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À.");
+					taMsg.setText("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤.");
+					System.out.println("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤.");
 				} catch (InterruptedException e1) {}
 				try { Thread.sleep(500);
-					taMsg.setText("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À..");
-					System.out.println("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À..");
+					taMsg.setText("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤..");
+					System.out.println("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤..");
 				} catch (InterruptedException e1) {}
 				try { Thread.sleep(500);
-					taMsg.setText("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À...");
-					System.out.println("°áÀçÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ½Ê½Ã¿À...");
+					taMsg.setText("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤...");
+					System.out.println("ê²°ì¬ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì‹­ì‹œì˜¤...");
 				} catch (InterruptedException e1) {}
-				taMsg.setText("ÁÖ¹®ÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù. Ä«µå¸¦ ¼ö°ÅÇØÁÖ¼¼¿ä.");
+				taMsg.setText("ì£¼ë¬¸ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤. ì¹´ë“œë¥¼ ìˆ˜ê±°í•´ì£¼ì„¸ìš”.");
 				btnPurchase.setVisible(false);
 				btnCancel.setVisible(false);
 				btnOk.setVisible(true);
 				reset();
 			}
 		});
-		btnOk.addActionListener(new ActionListener() { //È®ÀÎ2 ¹öÆ°À» ´­·¶À» ¶§
+		btnOk.addActionListener(new ActionListener() { //í™•ì¸ ë²„íŠ¼ì„ ëˆŒë €ì„ ë•Œ
 			public void actionPerformed(ActionEvent e) {
 				dlg.setVisible(false);
 			}
 		});
-		btnCancel.addActionListener(new ActionListener() { //Ãë¼Ò ¹öÆ°À» ´­·¶À» ¶§
+		btnCancel.addActionListener(new ActionListener() { //ì·¨ì†Œ ë²„íŠ¼ì„ ëˆŒë €ì„ ë•Œ
 			public void actionPerformed(ActionEvent e) {
 				dlg.setVisible(false);
 			}
 		});
 		dlg.setVisible(true);
 	}
-	void reset() { //¸ÇÃ³À½ »óÅÂ·Î ÃÊ±âÈ­µÊ.
+	void reset() { //ë§¨ì²˜ìŒ ìƒíƒœë¡œ ì´ˆê¸°í™”ë¨.
 		drinkName = "";
 		drinkQuan = 0;
 		drinkCost = 0;
@@ -662,14 +662,14 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		takeOut = "";
 		
 		label_selDrink.setIcon(new ImageIcon("C:\\ksj\\work\\images\\coffee_icon.jpg"));
-		label_drinkName.setText("À½·á¸í");
-		lblNewLabel_drinkQuan.setText("¼ö·®");
-		label_drinkCost.setText("-¿ø");
+		label_drinkName.setText("ìŒë£Œëª…");
+		lblNewLabel_drinkQuan.setText("ìˆ˜ëŸ‰");
+		label_drinkCost.setText("-ì›");
 		
 		label_cookieIcon.setIcon(new ImageIcon("C:\\ksj\\work\\images\\cookie_icon.png"));
-		Label_cookieName.setText("°£½Ä¸í");
-		label_cookieQuan.setText("¼ö·®");
-		Label_cookieCost.setText("-¿ø");
+		Label_cookieName.setText("ê°„ì‹ëª…");
+		label_cookieQuan.setText("ìˆ˜ëŸ‰");
+		Label_cookieCost.setText("-ì›");
 		
 		btnDrinkPlus.setEnabled(false);
 		btnDrinkCancel.setEnabled(false);
