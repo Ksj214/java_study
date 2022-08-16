@@ -672,8 +672,10 @@ public class Coffee_machine extends JFrame implements ActionListener {
 		Label_cookieCost.setText("-원");
 		
 		btnDrinkPlus.setEnabled(false);
+		btnDrinkMinus.setEnabled(false);
 		btnDrinkCancel.setEnabled(false);
 		btnCookiePlus.setEnabled(false);
+		btnCookieMinus.setEnabled(false);
 		btnCookieCancel.setEnabled(false);
 		
 		rdbtntakeOut.setEnabled(false);
